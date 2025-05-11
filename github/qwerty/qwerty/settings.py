@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["teamaster-production.up.railway.app", "127.0.0.1"]
 
+CORS_TRUSTED_WHITELIST = ["teamaster-production.up.railway.app"]
+
 CSRF_TRUSTED_ORIGINS = ["teamaster-production.up.railway.app"]
 
 # Application definition
