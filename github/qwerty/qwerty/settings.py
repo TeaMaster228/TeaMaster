@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-+l#oquj)_79d2-x0%1&oyt_#9y0dtpbmuqp%g!8!!j(_eiqra-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["738d-169-150-209-163.ngrok-free.app", "127.0.0.1"]
+ALLOWED_HOSTS = ["teamaster-production.up.railway.app", "127.0.0.1"]
 
+CSRF_TRUSTED_ORIGINS = ["teamaster-production.up.railway.app"]
 
 # Application definition
 
